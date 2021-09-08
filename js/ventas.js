@@ -2,12 +2,12 @@ let carrito = [];
 let precioGlobal = 0;
 //Armo un array con objetos sobre productos de la tienda online
 let productos = [
-{ id: 0,  articulo: "Clase de teatro",img:"drama500.jpg", precio: 1500, caracteristicas:"Valor por clase de 1 hora",stock:3},
-{ id: 1,  articulo: "Juego con números y letras", img:"letras1.jpg", precio: 1170, caracteristicas:"Recomendado para menores de 6 años",stock:5 },
-{ id: 2,  articulo: "Jornada lúdica para niños",img:"jornada500.jpg"  , precio: 1600,caracteristicas:"Duración de 2 horas",stock:40},
-{ id: 3,  articulo: "Práctica de conversación" , img:"conversacion500.jpg",precio: 2100, caracteristicas:"1 hora con un docente nativo",stock:10},
-{ id: 4,  articulo: "Summer camp",img:"camp.jpg", precio: 27000, caracteristicas:"Incluye 10 días de diversión", stock:14},
-{ id: 5,  articulo: "Libro actividades exámenes FCE" , img:"libro.jpg",precio: 3000, caracteristicas: "Incluye audios y auriculares", stock: 9}
+{ id: 0,  articulo: "Clase de teatro",img:"../Imagenes/drama500.jpg", precio: 1500, caracteristicas:"Valor por clase de 1 hora",stock:3},
+{ id: 1,  articulo: "Juego con números y letras", img:"../Imagenes/letras1.JPG", precio: 1170, caracteristicas:"Recomendado para menores de 6 años",stock:5 },
+{ id: 2,  articulo: "Jornada lúdica para niños",img:"../Imagenes/jornada500.jpg"  , precio: 1600,caracteristicas:"Duración de 2 horas",stock:40},
+{ id: 3,  articulo: "Práctica de conversación" , img:"../Imagenes/conversacion500.jpg",precio: 2100, caracteristicas:"1 hora con un docente nativo",stock:10},
+{ id: 4,  articulo: "Summer camp",img:"../Imagenes/camp.jpg", precio: 27000, caracteristicas:"Incluye 10 días de diversión", stock:14},
+{ id: 5,  articulo: "Libro actividades exámenes FCE" , img:"../Imagenes/libro.jpg",precio: 3000, caracteristicas: "Incluye audios y auriculares", stock: 9}
 ];
 console.log(productos);
 $(document).ready(function(){

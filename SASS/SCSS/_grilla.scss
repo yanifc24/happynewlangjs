@@ -1,0 +1,56 @@
+ /*Comienzo tabla Grid*/
+     
+ .gridNiveles{  display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
+   }
+         
+
+.textoTabla {
+         font-size: 1.2rem;
+         text-align: left; 
+         padding-bottom: 40px;
+         padding-top:20px;
+         
+    }
+
+.animales {font-family:'Cabin Sketch', cursive;
+       font-size: 1.7rem; 
+       color: rgb(85, 145, 58) ;
+       letter-spacing: 1px; 
+       text-align: center;
+       &:hover{ -webkit-transform: scale(1.2,1.2);
+        -ms-transform: scale(1.2,1.2);
+            transform: scale(1.2,1.2);
+   -webkit-transition-duration: 1s;
+        -o-transition-duration: 1s;
+           transition-duration: 1s;
+   -webkit-transition-timing-function: linear;
+        -o-transition-timing-function: linear;
+           transition-timing-function: linear;} 
+    }
+
+.naranja:hover, .verde:hover, .amarillo:hover{ 
+      -webkit-transform: scale(1.03,1.03);
+    -ms-transform: scale(1.03,1.03);
+        transform: scale(1.03,1.03);}
+
+.tablaSpace{padding-top: 70px;
+         margin-left: 20px;
+         margin-right: 20px;
+         padding-bottom: 150px;
+     }
+
+#tituloResaltadoubicacion { margin-top: 40px;
+          margin-bottom: 100px;
+          text-align: center;
+         }
+
+

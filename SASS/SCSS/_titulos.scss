@@ -1,0 +1,64 @@
+
+/*Inicio Títulos*/
+
+ .tituloGrande{
+    font-family:'Fredericka the Great', cursive; 
+    font-size: 2.3rem;
+    color:#020202c4 ;
+    padding-left: 40px;
+    margin-top: 60px;
+  }
+
+.tituloNegro {   
+   color: #030200;
+   font-weight: bolder;
+   font-size: 2.1rem; 
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox; 
+   display: flex; 
+   -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
+   justify-content: center;
+   margin-bottom: 75px;
+
+
+}
+
+.tituloResaltado {
+        background-color:#e37f87 ;
+        font-weight: bolder;
+        font-size: 1.6rem;
+        }
+
+
+.tituloFooter{ 
+   font-size: medium; 
+   text-align: justify;
+   font-weight: bold;
+   padding-left: 35px;
+   text-decoration: underline;
+   text-transform: uppercase;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   -ms-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center; 
+   margin-top: 40px;
+}
+
+#tituloCursos {
+   font-size:1.3rem;
+   text-decoration: underline;
+}
+#tituloDescuento { font-size:1.5rem;
+   margin-top: 50px;
+   margin-bottom: 30px;
+   font-weight: bold;
+
+}
+/* Fin de Títulos*/

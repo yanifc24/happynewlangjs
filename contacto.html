@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+        <!--Este es el comienzo de etiquetas Meta-->
+        <meta charset="UTF-8">      
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="ingles,idiomas,academia,inscripcion,formulario,telefono,correo,ubicacion,datos">
+        <meta name= "description" content="Es una academia de inglés para niños y jóvenes ubicada en la ciudad de Buenos Aires.No dudes en completar el formulario para contactarnos.¡Te esperamos!">
+        <!--Este es el final de las etiquetas Meta-->
+        <title>Contacto-Ubicación y formulario</title> 
+        <link rel="stylesheet" href="Bootstrap/bootstrap-4.6.0-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="SASS/css/prueba.css"/>
+        <link rel="preload" href="styles.css" as="style">
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="sweetalert2.all.min.js"></script>
+        
+         <!-- Fuentes-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Cabin+Sketch&family=Fredericka+the+Great&family=Love+Ya+Like+A+Sister&family=Mali:wght@700&family=Open+Sans:wght@300;400&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+  
+    </head>
+    <body>
+          <!--Este es el comienzo del Header -->
+          
+          <header id=header>
+          
+            <!--Este es el comienzo del Nav-->
+          <nav class="navbar navbar-expand-lg navbar-light col-12 shadow colorNav">
+            <div class="container-fluid">
+              <div class="row">
+
+
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                       <div class="sinItem">
+                        <li>
+                        <a class="nav-item active ml-2 nav-link " href="index.html">
+                          <img src="Imagenes/logo2.png" alt="HappyNewlang" width= "170px" class="logo"></a>
+                      </li>
+
+                      <li class="nav-item active ml-2">
+
+                        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item ml-2">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item ml-2">
+                        <a class="nav-link" href="niveles.html">Niveles</a>
+                      </li>
+                      <li class="nav-item ml-2">
+                        <a class="nav-link" href="ventas.html">Productos</a>
+                      </li>
+                      <li class="nav-item ml-2">
+                        <a class="nav-link" href="curso.html">Curso</a>
+                      </li>
+                      <li class="nav-item dropdown ml-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Más servicios
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="Examenesinternacionales.html">Examenes internacionales</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="cursosenelexterior.html">Cursos en el exterior</a>
+                          <div class="dropdown-divider"></div>
+                        </div>
+                      </li>
+                      <li class="nav-item ml-2">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>    
+           </div>
+                
+        </header>
+        <!--Este es el final del Header-->
+        <!--Este es el comienzo del Main-->
+        <main class="margenes" id="contacto">
+        <!--Dejanos tu consulta-->
+           <div id="margenConsulta">
+                 <img src="https://i.ibb.co/k2JKCbn/contacto.png" alt="contacto" width="200px" border="0">
+                 <div><h1 id="consulta"><span class="tituloResaltado">¡Dejanos tu consulta!</span></h1></div>
+           </div>
+              
+        <!--Este es el comienzo del Formulario-->
+          <div id="ubicacionDerecha"> 
+              <form action=""  id="forms"> 
+                   
+                    <label for="nombre"> Nombre y apellido</label><br>
+                    <input type="text" id="mayusculas" onfocus="cambioFondo(this)" onblur="mayuscula()" name="nombre"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email"  onfocus="cambioFondo(this)" name="email"   required><br>   
+                    <label for="telefono">Teléfono</label><br>
+                    <input type="text"  id="telefono" onfocus="cambioFondo(this)"><br>
+                    <label for="¿Cómo nos conociste?">¿Cómo nos conociste?</label>
+                    <select name="¿Cómo nos conociste?" onfocus="cambioFondo(this)" id="¿Cómo nos conociste?">
+                          <option value="Instagram">Instagram</option>
+                          <option value="Facebook">Facebook</option>
+                          <option value="publicidad">Publicidad</option>
+                         <option value="Google">Google</option>
+                          <option value="Me lo recomendaron">Me lo recomendaron</option>
+                    </select><br>
+                 
+                    <div>¿Desea recibir el newsletter?</div>
+                    <input type="checkbox" name="acepta" value="1" onfocus="cambioFondo(this)" /> <br>
+               
+                 
+                    <label for="mensaje">Mensaje</label><br>
+                    <textarea name="Mensaje" rows="7" cols="30" onfocus="cambioFondo(this)"></textarea><br>
+                    <input type="reset" value="Limpiar formulario">
+                    <input class="btn btn-primary" type="submit" id="botonForm" value="Enviar">
+                   
+                 
+                        
+              </form>
+             <!--Este es el final del Formulario-->
+             <!--Mapa Ubicación-->
+               
+                <div id="margenMapa">
+                    <h2 id="ubicacion"><span class="tituloResaltado">Nuestra ubicación</span><img src="Imagenes/ubicacion.png" alt="direccion" width="60px"></h2>
+                    <iframe title="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210147.3970706404!2d-58.57338436212408!3d-34.615461118227664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1617646749566!5m2!1ses-419!2sar" width="350" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+        </main> 
+        <!--Este es el final del Main-->
+        <!--Este es el comienzo del Footer-->
+        <footer>
+            <!--Este es el comienzo de Redes-->
+             <div class="footerDerecha">
+                
+                 <h3 class="tituloFooter"><b>Redes</b></h3>
+                 <ul class="agrandar">
+                    <li><a href="https://www.instagram.com/"><img src="Imagenes/instagram.png" alt="instagram" width="35px"class="agrandar__redes"></a></li> 
+                    <li><a href="https://www.facebook.com"><img src="Imagenes/facebook.png" alt="Facebook" width="35px"class="agrandar__redes"></a></li>
+   
+                </ul>
+             </div>
+             <!--Este es el final de Redes-->
+             <!--Este es el comienzo de Datos de contacto-->
+             <div class="footerDerecha">
+                 <h3 class="tituloFooter"><b>Datos de contacto</b></h3>
+                 <ul class="sinItem datosContacto">
+                   <li class="datosContacto__item--blue"><img src="Imagenes/direccion-de-casa.png" alt="direccion" width="32px">Ciudad de Buenos Aires,Argentina</li>
+                   <li class="datosContacto__item--grey"><img src="Imagenes/telefono.png" alt="telefono" width="32px">45821281</li>
+                   <li class="datosContacto__item--pink"><img src="Imagenes/email.png" alt="email" width="32px">newlang@gmail.com</li>
+                </ul>
+             </div>
+             <!--Este es el final de Datos de contacto-->
+             <div id="derechosAbajo">
+                 
+                 <h4 id="derechosAbajo__derechos">2021HappyNewLang-Todos los derechos reservados</h4>
+             </div>
+             
+         </footer> 
+        <!--Este es el final del Footer-->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="js/eventos.js"></script>
+        <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script defer  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    </body>
+   
+
+</html>

@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Profesores</title>
+	 <!--Este es el comienzo de etiquetas Meta-->
+	 <meta charset="UTF-8">      
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <meta name="keywords" content="profesores,datos,cursos">
+	 <meta name= "description" content="Datos de los profesores de la academia">
+	 <script src="js/jquery-3.6.0.min.js"></script>
+	 <link rel="stylesheet" href="Bootstrap/bootstrap-4.6.0-dist/css/bootstrap.css">
+     <link rel="stylesheet" href="SASS/css/prueba.css"/>
+     <link rel="preload" href="styles.css" as="style">
+	 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	 <!-- Fuentes-->
+	 <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Cabin+Sketch&family=Fredericka+the+Great&family=Love+Ya+Like+A+Sister&family=Mali:wght@700&family=Open+Sans:wght@300;400&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+	 <link rel="preconnect" href="https://fonts.gstatic.com"> 
+</head>
+<body>
+  <!--Este es el comienzo del Header -->
+          
+  <header id=header>
+          
+	<!--Este es el comienzo del Nav-->
+  <nav class="navbar navbar-expand-lg navbar-light col-12 shadow colorNav">
+	<div class="container-fluid">
+	  <div class="row">
+
+
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			   <div class="sinItem">
+				<li>
+				<a class="nav-item active ml-2 nav-link " href="index.html">
+				  <img src="Imagenes/logo2.png" alt="HappyNewlang" width= "170px" class="logo"></a>
+			  </li>
+
+			  <li class="nav-item active ml-2">
+
+				<a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+			  </li>
+			  <li class="nav-item ml-2">
+				<a class="nav-link" href="nosotros.html">Nosotros</a>
+			  </li>
+			  <li class="nav-item ml-2">
+				<a class="nav-link" href="niveles.html">Niveles</a>
+			  </li>
+			  <li class="nav-item ml-2">
+				<a class="nav-link" href="ventas.html">Productos</a>
+			  </li>
+			  <li class="nav-item ml-2">
+				<a class="nav-link" href="curso.html">Curso</a>
+			  </li>
+			  <li class="nav-item dropdown ml-2">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Más servicios
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="Examenesinternacionales.html">Examenes internacionales</a>
+				  <div class="dropdown-divider"></div>
+				  <a class="dropdown-item" href="cursosenelexterior.html">Cursos en el exterior</a>
+				  <div class="dropdown-divider"></div>
+				</div>
+			  </li>
+			  <li class="nav-item ml-2">
+				<a class="nav-link" href="contacto.html">Contacto</a>
+			  </li>
+			</ul>
+		  </div>
+		</nav>    
+   </div>
+		
+</header>
+<!--Este es el final del Header-->
+
+	<main class="margenes">
+		<h1 class= "tituloGrande">Profesores</h1>
+		<div id="respuesta"></div>
+		
+		<label>Nombre del curso</label>
+		<select id="curso">
+			<option value="langCocodrile">Lang cocodrile</option>
+			<option value="langKoala">Lang koala</option>
+			<option value="langTiger">Lang tiger</option>
+
+		</select>
+		<button class="btn btn-primary">Cargar</button>
+	</main> 
+		<footer>
+			<!--Este es el comienzo de Redes-->
+			 <div class="footerDerecha">
+				
+				 <h3 class="tituloFooter"><b>Redes</b></h3>
+				 <ul class="agrandar">
+				   <li><a href="https://www.instagram.com/"><img src="Imagenes/instagram.png" alt="instagram" width="35px"class="agrandar__redes"></a></li> 
+				   <li><a href="https://www.facebook.com"><img src="Imagenes/facebook.png" alt="Facebook" width="35px"class="agrandar__redes"></a></li>
+	
+				 </ul>  
+			 </div>
+			 <!--Este es el final de Redes-->
+			 <!--Este es el comienzo de Datos de contacto-->
+			 <div class="footerDerecha">
+				 <h3 class="tituloFooter"><b>Datos de contacto</b></h3>
+				 <ul class="sinItem datosContacto">
+				   <li class="datosContacto__item--blue"><img src="Imagenes/direccion-de-casa.png" alt="direccion" width="32px">Ciudad de Buenos Aires,Argentina</li>
+				   <li class="datosContacto__item--grey"><img src="Imagenes/telefono.png" alt="telefono" width="32px">45821281</li>
+				   <li class="datosContacto__item--pink"><img src="Imagenes/email.png" alt="email" width="32px">newlang@gmail.com</li>
+				 </ul>
+			 </div>
+			 <!--Este es el final de Datos de contacto-->
+			 <div id="derechosAbajo">
+				  <h4 id="derechosAbajo__derechos">2021HappyNewLang-Todos los derechos reservados</h4>
+				 
+			 </div>
+			 
+		 </footer> 	
+<script>//https://randomuser.me/api/</script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/profesores.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+</body>
+</html>

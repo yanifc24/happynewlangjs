@@ -1,0 +1,761 @@
+
+  /* Generales*/
+ * {text-decoration: none; }
+
+ html { font-size: 62,5%; }
+ body { font-family:'Open Sans', sans-serif ;
+        margin: 0px;
+        padding: 0px;}
+
+
+a { color: inherit;}
+
+.lista{list-style-image: url(imagenes/checkmark3.png); }
+
+.listaColor{color: #fabf40;  }
+
+
+.sinItem{list-style-type: none; }
+
+.margenes{margin-left: 80px;
+     margin-right: 70px; 
+     margin-bottom: 120px;
+}
+
+.height{ height: 90vh;}
+.colorNav{ background-color:#dee041;
+
+
+}
+nav ul li{ 
+     font-size: 1.2rem;
+}
+
+    /* Inicio del Menú*/
+    
+ /*.menu {font-family: Arial, Helvetica, sans-serif; 
+        background-color: #0c0c0c;
+        font-size: 1.3rem; }
+
+
+ a {text-decoration: none;
+   color: black;  }
+
+
+ nav ul {list-style: none; 
+       overflow: hidden; 
+      
+       margin-left: -10px; 
+       display: flex; 
+       flex-flow: row wrap;  
+       justify-content: space-around ; 
+        }
+
+       
+ nav ul li {margin-right: 20px;
+            width: 20vh; 
+            
+            padding: 15px;
+             }
+
+ nav ul li a{ color: rgb(14, 11, 17);
+             letter-spacing: 1px; 
+             display: flex; 
+             justify-content: center; }
+            
+nav ul li  img { display: block;
+                 margin: 0 auto;  }
+
+ nav li a:hover{color: rgb(3, 185, 100);} 
+
+ .subMenu { display: none;
+           position: absolute;  }
+
+/* #masServicios:hover .subMenu  { display: flex; 
+                                flex-direction: column;
+                                height: 40vh;
+                                align-items: flex-start; }
+
+ .subMenu li {border-style: none;  }
+
+
+ .subMenuColumna{ display: flex; 
+                flex-direction: column;
+                margin-top: 40px; 
+                height: 50px;  }
+
+       
+
+         /* Fin del Menú*/
+
+          /*Inicio Títulos*/
+
+ .tituloGrande{font-family:'Fredericka the Great', cursive; 
+              font-size: 2.3rem;
+              color:#020202c4 ;
+              padding-left: 40px;
+              margin-top: 60px;}
+
+
+ .tituloBlanco{ color: #ffffff;
+            font-weight: bolder;
+            font-size: 2rem; 
+            display: flex; 
+            justify-content: center;
+            }
+
+.tituloNegro {  color: #030200;
+                font-weight: bolder;
+                font-size: 2rem; 
+                display: flex; 
+                justify-content: center;
+                margin-bottom: 45px;
+   
+      }
+
+ .tituloResaltado {background-color:#e37f87 ;
+                  font-weight: bolder;
+                  font-size: 1.6rem;  }
+ 
+
+ .tituloFooter{
+      font-size: medium; 
+      text-align: justify;
+      font-weight: bold;
+      padding-left: 35px;
+      text-decoration: underline;
+      text-transform: uppercase;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center; 
+      margin-top: 40px;}
+
+
+          /* Fin de Títulos*/
+
+   /* Portada y textos*/
+
+ .texto {
+        padding: 20px 20px  20px  10px;
+        text-align: justify;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        color: #030200;}
+
+
+ #logo { margin-top: 40px; 
+         margin-bottom: 60px;}
+         
+ .textoPortada{color: rgb(7, 7, 7);
+              font-size: 1.2rem;
+              padding-left: 40px; 
+              padding-right: 40px;}
+
+ #backgroundPortada{background-image:url(imagenes/Ver\ Black.jpg);
+                    background-position: bottom;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    padding-bottom: 200px;
+                    padding-top: 200px; }
+
+
+ #cursoCentro {text-align: center;
+                font-size: 1.2rem ;
+                font-style: oblique;
+                line-height: 1.5;
+                text-align: justify;
+                padding: 20px 20px  20px  10px ; }
+
+ .ciudades {font-family:'Train One', cursive ;
+           font-size: 2rem ;
+            margin-top: 50px;
+             margin-bottom: 50px}
+video{
+     margin-top: 50px;
+    margin-bottom: 50px; 
+    text-align: center;
+    width:600px;
+}
+.fotonyc{ margin-top: 30px;
+     margin-bottom: 50px; 
+     
+
+}
+
+
+ .textoBlanco{color:#ffffff; 
+             font-family:'Fredoka One', cursive;
+             font-size: 1.8rem; 
+             margin-bottom:  -20px;
+             padding-bottom: 100px; }
+
+
+ .textoCiudades{text-align: left;
+               font-size: 1.2rem;
+               
+               list-style: none; 
+               font-family: 'Balsamiq Sans', cursive;
+               margin-left: 30px;}
+
+.listaInterlineado li { margin-bottom: 15px; }
+.listaInterlineado {margin-top: 25px;
+
+}
+
+ #ubicacion{font-family:'Kiwi Maru', serif;
+           font-size: 1,4rem;
+           font-weight: bold;
+            margin-top: -55px; 
+          }
+
+       
+ #lineaPunteada{ padding: 40px 50px;
+                 border: PowderBlue 5px dashed;
+                 border-top-left-radius: 20px;
+                 border-bottom-right-radius: 20px;
+                 margin-bottom: 70px; 
+               margin-top: 30px; } 
+
+
+   /* Inicio Footer"*/
+ 
+
+ footer { display: flex; 
+         flex-flow: row wrap ;
+         justify-content: space-around;
+         background-color: #8ae9b3;
+         background-image: linear-gradient(315deg, #8ae9b3 0%, #c8d6e5 74%);
+         margin-bottom: -35px;
+         padding: 15px;
+         margin-top: 200px;
+         column-gap: 10px; }
+
+.datosContacto{ font-family: 'Times New Roman', Times, serif;
+                font-size: 0,2rem; 
+                line-height: 1.5;   }
+
+.agrandar a img:hover{ width: 40px;}
+
+
+ #derechos{padding-left: 10px; font-size: 1rem;}
+
+ #derechosAbajo{ display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items:flex-end ; }
+
+
+   /* Fin Footer"*/
+
+   /* Inicio Galería de imágenes "Nuestro espacio"*/
+
+   #galeria  {    
+     display: flex; 
+     flex-flow: row-reverse wrap;
+     justify-content:center;
+     width: 80%;
+     margin: auto;
+     column-gap: 40px;
+     row-gap: 50px;
+    }
+
+ #galeria img {  border-radius: 20px; 
+                 display: flex;
+                 flex-grow: 1; 
+                flex-basis: auto;
+                transition: border 0.5s;
+   }
+
+  #galeria img:hover { border-left: #df8c11 solid 8px;
+                      border-right: #e37f87 solid 8px;
+     }
+
+#imagenSiete{display: flex;
+            flex-grow: 2; }
+
+#imagenOcho{display: flex;
+            flex-grow: 2; }
+
+
+#margenGaleria{ margin-top: 100px;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: 120px;}
+
+
+ .backgroundDos{background:#ffffff ;
+}
+
+   /* Fin Galería de imágenes "Nuestro espacio"*/
+ 
+
+    /* Inicio Galería de imágenes Nosotros*/
+
+   #galeriaNosotros { display: flex; 
+                     flex-flow: row wrap;
+                     justify-content:center;
+                     width: 90%; 
+                     margin: auto;
+                     column-gap: 50px;
+      }
+
+    #galeriaNosotros img { border-radius: 30px; 
+                       border: rgb(241, 179, 8) 6px dotted; 
+                       margin-top: 50px; display: flex; 
+                       flex-basis: auto; 
+                       flex-grow: 1; 
+     }
+ 
+
+  #margenNosotros { margin-top: 120px;}
+
+      /* Fin Galería de imágenes Nosotros*/
+
+
+         /* Contacto*/
+
+
+#consulta{font-family:'Kiwi Maru', serif; 
+          text-align: left; 
+          font-size: 1.4rem;
+          padding-left: 10px;
+         }
+
+#margenConsulta { margin-top: 100px; }
+#margenMapa {margin-top: -10px; }
+
+#ubicacionDerecha{ display: flex;
+           flex-flow:row wrap;
+          column-gap: 200px;
+          row-gap: 30px;
+          align-items: flex-start;} 
+
+#form{text-align: left; 
+     font-size: medium;
+     padding-left: 10px;
+                }
+
+      /*Fin Contacto*/
+
+      /*Comienzo tabla Grid*/
+     
+.grid{ display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     justify-content: center;
+     column-gap: 10px;
+    
+    }
+          
+
+.textoTabla {
+          font-size: 1.2rem;
+          text-align: left; 
+          padding-bottom: 40px;padding-top:20px;
+          
+     }
+
+.animales {font-family:'Cabin Sketch', cursive;
+        font-size: 1.7rem; 
+        color: rgb(85, 145, 58) ;
+        letter-spacing: 1px; 
+        text-align: center;
+     }
+
+.naranja:hover, .verde:hover, .amarillo:hover{ transform: scale(1.03,1.03);}
+
+.tablaSpace{padding-top: 70px;
+          margin-left: 20px;
+          margin-right: 20px;
+          padding-bottom: 150px;
+      }
+
+ #tituloResaltadoubicacion { margin-top: 40px;
+           margin-bottom: 100px;
+           text-align: center;
+          }
+
+
+.verde{background-color: #9bf1a6c4;
+       padding: 40px 40px  40px  20px;
+}
+
+.amarillo{ background-color: #dbd141;
+           padding: 40px 40px  40px  20px;}
+
+.naranja{  background-color: #e79c0f;
+           padding: 40px 40px  40px  20px; }
+
+.animales:hover{ transform: scale(1.2,1.2);
+                 transition-duration: 1s;
+                 transition-timing-function: linear;} 
+
+       /*Comienzo exámen*/
+
+ .textoExamen{
+          font-size: 1.2rem;
+          text-align: justify;
+          margin-right: 60px;
+          margin-top: 60px;
+          margin-bottom: 30px;
+          line-height: 1.6;}
+
+.textoExamen li { margin-bottom: 40px;
+               background-color: #d9e990; 
+               text-align: start;
+               padding: 50px ; 
+               border: rgb(233, 242, 243) 8px solid;
+               border-radius: 40px;
+               list-style-type: none;
+               font-size: 1.3rem;}
+
+.nivel {font-family: 'Mali', cursive; 
+        font-size: 2rem; 
+        font-weight: bolder;
+        color: rgb(56, 205, 216);}
+
+
+#gridExamen{ display: grid;
+             grid-template-columns: repeat(2, 1fr);
+             grid-template-rows: repeat(2, 1fr);
+             grid-column-gap: 45px;
+             grid-row-gap: 37px;
+
+}
+
+         /*Fin exámen*/
+
+        /*Sección Nuestros servicios*/
+
+       
+  .background{  background-color:#f7aa1c;
+                margin-bottom: 20px;
+                padding-top: 40px ; }
+
+    .listaUbicacion{  display: grid; 
+                      grid-template-columns: repeat(3, 1fr);
+                      column-gap: 40px;
+                      margin-top: 80px; }
+
+  .listaUbicacion a {display:block; 
+                     padding-left: 50px;
+                     padding-right: 40px;
+                     text-align: center;
+                     color: #ffffff;} 
+
+   .listaUbicacion img {
+    display: block;
+    margin: 0 auto;
+     margin-top: 18px; }
+
+    .listaUbicacion  a img:hover { 
+     cursor: pointer;
+     transition: all 3s; 
+     transition-timing-function: linear;
+     transform: rotateY(360deg); 
+   
+}
+.carousel-caption { 
+     font-size:24px; 
+}
+.sliderResaltado{ 
+     color: #030200;background-color: #f0f3f5;
+}
+
+ /*Inicio KeyFrames*/      
+      
+
+ .tituloResaltado { animation-name: opacity; 
+     animation-timing-function: ease;
+     animation-delay: 1s;
+     animation-duration: 3s;}
+
+ @keyframes opacity {
+      0% { opacity: 0;}
+
+      100% { opacity: 1; }
+ }
+
+
+ /*Fin KeyFrames*/ 
+ 
+
+
+        /*Inicio Media queries*/
+
+       @media (max-width:480px) { 
+          .backgroundDos {
+               padding-bottom: 30px;
+               margin: 0 auto;
+                }
+          
+      
+          .textoPortada{ font-size: 1.2rem;
+                text-align: start; }
+
+          .tituloNegro { font-size: 1.7rem;
+                text-align: center; }
+
+           #mediaWidth{ width: 100vw;
+               margin-right: 0 auto;}
+
+            .listaUbicacion {display: flex; 
+               flex-flow: row wrap;  
+               flex-direction: column;
+               justify-content: space-around ; 
+               row-gap: 70px;}
+
+          
+          nav ul li {font-size: 1.1rem; }
+        
+          .tituloFooter{ font-size: 1rem;}
+
+          .datosContacto { font-size: 1.2rem; }
+
+          #derechos { font-size: 1rem;
+               padding-left: 40px;}
+
+          #derechosAbajo { display: flex;
+                    flex-wrap: wrap; 
+                    flex-direction: row;
+                    justify-content: center;}
+               
+         
+          footer {margin-right: -110px;
+                  display:block;
+                   width: 100vw;}
+
+          .sinItem li a { display: flex;
+                     flex-wrap: wrap; 
+                     flex-direction: column;
+                     align-items: center;}
+
+          .datosContacto li {display: flex;
+                    flex-wrap: wrap; 
+                    flex-direction: column;
+                    align-items: center; }
+
+          .background{ width: 100vw; }
+
+         video { 
+              width: 310px;
+         }
+
+          .margenes { margin-left: 20px; }
+          #gridExamen{
+               display: flex; 
+               flex-wrap: wrap;
+               flex-direction:row;
+           }
+          .textoExamen{
+              text-align:start; 
+              
+            
+          } 
+          .textoExamen li { 
+               font-size:1.3rem;
+               text-align:start;
+               
+          }
+          #margenMapa{
+               margin-top:80px;
+          }
+          #fotoAcademia img {
+               width: 280px; 
+          }
+          #margenMapa iframe { width:300px;}
+          .fotonyc img {
+               width: 280px;
+          }
+          .carousel-caption{ 
+               font-size:24px;
+          }
+         
+          .grid{ display: flex;
+               flex-direction:row;
+               flex-wrap: wrap;
+               align-items:center;
+               justify-content:center;
+               width: 70vw;
+
+          }
+       }
+
+
+       @media (min-width:481px ) and (max-width:768px)  {
+
+          .backgroundDos { 
+               margin-top: -100px;
+               margin-right: -115px;
+               margin-bottom: -200px;
+               padding-bottom: 30px;}
+
+           .carousel-caption{ 
+                    font-size:26px;
+               }
+          .tituloNegro { font-size: 2.2rem; }
+
+          .tituloBlanco { font-size: 2.2rem; }
+
+          #mediaWidth{ width: 80vw;
+               margin-right: 0 px;}
+         
+           #backgroundPortada { margin-right: 0px; width: 105vw; }
+
+          .listaUbicacion {display: grid; 
+               grid-template-columns: 1fr; 
+               row-gap: 45px; 
+               justify-self: center; }
+
+          .textoBlanco{ font-size: 2.2rem; }
+
+          .textoPortada{ font-size: 1.5rem; }
+
+          .tituloGrande{ font-size: 2.9rem; }
+
+          nav ul li { font-size: 1.5rem;}
+
+          .tituloFooter{ font-size: 1.4rem;}
+
+          .datosContacto { font-size: 1.4rem; }
+
+          #derechos { font-size: 1rem;
+               }
+          #derechosAbajo { display: flex;
+                    flex-wrap: wrap; 
+                    flex-direction: row;
+                    justify-content: center;}
+
+        
+
+          #galeria{ display: grid; 
+               grid-template-columns: repeat 8( 1fr);
+              
+          }
+         
+
+          footer {display:block;
+                width: 105vw;
+                }
+          .sinItem li a { display: flex;
+                flex-wrap: wrap; 
+                flex-direction: column;
+                align-items: center;}
+
+          .datosContacto li {display: flex;
+               flex-wrap: wrap; 
+               flex-direction: column;
+               align-items: center; }
+
+         #margenMapa{
+                    margin-top:80px;
+               }
+
+          .background{ width: 105vw;
+                      margin-right:-145px; }  
+          .textoExamen li{ 
+                    font-size: 1rem;
+               }
+          #gridExamen{
+                    display: flex; 
+                    flex-wrap: wrap;
+                    flex-direction:row;
+                }
+          .slide { 
+               width:105vw;
+          }
+          .grid{ display: flex;
+                    flex-direction:row;
+                    flex-wrap: wrap;
+                    margin-left: 30px;
+                    width: 40vw;
+                    align-items:center;
+                    justify-content: center;
+     
+               
+               }
+          .navbar { 
+               width: 105vw;
+          }
+
+     }
+     
+          
+     @media (min-width:769px ) and (max-width:1024px)  {
+          .backgroundDos {
+                          padding-bottom: 70px; }
+       .carousel-caption{ 
+                              font-size:28px;
+                         }
+
+          .tituloNegro { font-size: 2rem; }
+
+          .tituloBlanco { font-size: 2rem; }
+
+          #mediaWidth{ width: 100vw;
+               margin-right:auto;}
+
+          .listaUbicacion {display: grid; 
+               grid-template-columns: 1fr; 
+               column-gap: 40px; 
+               row-gap: 50px; 
+               justify-self: center;}
+
+          .textoBlanco{ font-size: 2rem; }
+
+          .textoPortada{ font-size: 1.2rem; }
+
+          .tituloGrande{ font-size: 3rem; }
+
+         
+
+          .tituloFooter{ font-size: 1.2rem;}
+
+          .datosContacto { font-size: 1rem; }
+
+          #derechos { font-size: 0.8rem;
+               padding-left: 40px;}
+
+        
+          nav ul li { font-size: 1.5rem;}
+
+          footer {
+          display: flex; 
+          flex-flow: row wrap ;
+          justify-content: space-around;
+          width: 100vw;}
+
+         .background{ width: 100vw;
+          margin-right:-145px; } 
+          #margenMapa{
+               margin-top:80px;
+          }
+          #gridExamen{
+               display: flex; 
+               flex-wrap: wrap;
+               flex-direction:row;
+           }
+           
+          .grid{ display: flex;
+               flex-direction:row;
+               flex-wrap: wrap;
+               margin-left: 30px;
+               
+
+          }
+          
+
+     }
+     .textoExamen li{
+          font-size: 1.2rem;
+     }
+       
+ 
+      /*Fin Media Queries*/  
+
+     
+
+
+     
+     
+
+     

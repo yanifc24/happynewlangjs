@@ -1,0 +1,17 @@
+{
+  "name": "happynewlang",
+  "version": "1.0.0",
+  "description": "Escuela de inglés en Ciudad de Buenos Aires para niños/as y jovenes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/demo.scss css/prueba.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Yanina Calviello",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  }
+}

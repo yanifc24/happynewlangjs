@@ -1,0 +1,180 @@
+
+$naranja :rgb(241, 179, 8) ;
+$width: 100%;
+
+/*Map*/
+$colors: ( "verde": #9bf1a6,
+          "amarillo": #DBD141,  
+          "naranja": #E79C0F);
+ 
+/*Bloque 1 Exámenes internacionales*/
+.textoExamen{
+     font-size: 1.2rem;
+     text-align: justify;
+     margin-right: 60px;
+     margin-top: 60px;
+     margin-bottom: 30px;
+     line-height: 1.6;
+     &__nivel {
+        font-family: 'Mali', cursive; 
+        font-size: 2rem; 
+        font-weight: bolder;
+        color: rgb(78, 203, 212);}  
+}
+
+ /*Bloque 2 fondo naranja "Inicio"*/
+   
+.backgroundOrange{  
+     background-color:#f7aa1c;
+     margin-bottom: 20px;
+     padding-top: 40px ; 
+  
+    }
+
+/*Bloque 3 Footer*/
+.datosContacto{ 
+ font-size: 1.2rem;
+ text-align: center;
+ &__item{ 
+    padding: 6px; 
+    font-weight: bold;
+    &--blue{color: #132170;
+
+    }
+    &--grey{ color: #42403d;
+    
+    }
+    &--pink{color: #b30d4c;
+    
+    }
+    }
+    
+}
+
+/*Bloque 4 Portada*/
+
+.backgroundPortada { 
+    background-color:#b0e0e6 ;
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 200px;
+    padding-top: 60px;
+     &__tituloGrande { 
+        padding-left: 40px;
+        padding-bottom: 40px;
+        font-size: 2.5rem;
+        padding-top: 40px;
+    
+     } 
+       &__textoPortada {
+       color: rgb(7, 7, 7);
+       font-size: 1.4rem;
+       padding-left: 40px; 
+       padding-right: 40px;
+       line-height: 1.7;}
+}
+    
+
+
+/*Bloque 5 Derechos*/
+
+#derechosAbajo{
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+           flex-direction: row;
+   -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+   -webkit-box-align:end;
+       -ms-flex-align:end;
+           align-items:flex-end ;
+    &__derechos { 
+        padding-left: 10px; 
+        font-size: 1rem;}
+}
+      
+/*Bloque 6 Cursos*/
+
+.textoCursos{ 
+    margin-top:40px ; 
+    margin-bottom: 50px;
+    &__cursoCentro { 
+        font-size: 1.3rem ;
+        font-style: oblique;
+        line-height: 1.5;
+        padding: 20px 20px  20px  10px ; }    
+     
+}
+
+
+/*Bloque 7 Redes*/
+
+.agrandar{ 
+    list-style-type: none;
+    text-align: center;
+    &__redes{ 
+        padding:3px;
+    }
+    
+}
+
+/*Bloque 8 niveles*/
+.textoNiveles{ 
+    padding-left: 40px; 
+    font-size: 1.2rem;
+    margin-top: 100px;
+    &__parrafo {
+        line-height: 1.8; 
+        color:$naranja;
+        padding: 30px 30px;
+        border: $naranja 5px solid;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+
+}
+
+/*Bloque 9 niveles Boton*/
+
+.btnInscripcion{ 
+text-align:center;
+padding-top: 40px;
+&__niveles{ 
+    font-size: 20px;
+    padding : 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    }
+}
+
+/*Bloque 10 texto Examen*/
+
+.parrafoExamen{  
+    padding-left: 40px; 
+    font-size: 1.2rem;
+    &__modalidad{ 
+        line-height: 1.8; 
+        color:rgb(26, 180, 201);
+        padding: 30px 30px;
+        font-weight: bold;
+        border: rgb(128, 200, 209) 5px solid;
+        border-radius: 20px;
+    } 
+
+}
+
+
+ /*Each (sección "niveles")*/
+ 
+  @each $nombre, $color in $colors { 
+    .#{$nombre}{ 
+        padding: 40px 40px  40px  20px;
+        background-color: $color;
+    }
+}
+

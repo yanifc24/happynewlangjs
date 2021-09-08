@@ -1,0 +1,831 @@
+
+
+@import "titulos";
+@import "grilla";
+@import "textosyportada";
+@import "bem";
+
+/* Variables*/
+$naranja :rgb(241, 179, 8) ;
+$width: 100%;
+
+
+ /* Generales*/
+
+
+ * {text-decoration: none; }
+
+ html { font-size: 62,5%; }
+ body { font-family:'Open Sans', sans-serif ;
+        margin: 0px;
+        padding: 0px;}
+
+
+a { color: inherit;}
+
+
+.listaColor-1 , .listaColor-2 , .listaColor-3{ 
+     color:rgb(92, 98, 100); 
+     line-height: 2.2;
+ }
+
+
+.svg {
+     margin-top: -50px;
+}
+.sinItem{ list-style-type: none; }
+
+.margenes{ 
+     margin-left: 80px;
+     margin-right: 70px; 
+     margin-bottom: 120px;
+}
+
+.height{ 
+    height: 90vh;
+}
+.colorNav{ 
+    background-color:#dee041;
+
+}
+nav ul li {
+  font-size: 1.3rem;
+  display: inline-block;
+ }
+   
+ /* Galería de imágenes */
+
+    .galeria  {    
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex; 
+      -webkit-box-orient: horizontal; 
+      -webkit-box-direction: reverse; 
+     -ms-flex-flow: row-reverse wrap; 
+     flex-flow: row-reverse wrap;
+     -webkit-box-pack:center;
+     -ms-flex-pack:center;
+     justify-content:center;
+     width: $width - 10;
+     margin: auto;
+     -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+     column-gap: 40px;
+     -webkit-row-gap: 30px;   
+      row-gap: 30px;
+     
+    }
+
+    .imgIndex{ 
+         border-radius: 20px;
+         width: 280px; 
+         display: -webkit-box; 
+         display: -webkit-flex;
+         display: -ms-flexbox; 
+         display: flex;
+         transition: border 0.5s;
+         &:hover { 
+             border-left: $naranja solid 8px;
+             border-right: #e37f87 solid 8px;} ;
+
+                     }
+
+.galeria__foto{ 
+    border-radius: 30px; 
+    border:$naranja 6px dotted; 
+    margin-top: 50px; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: -webkit-flex;
+    display: flex;
+    width: 250px;
+
+}
+
+ #margenGaleria{
+         margin-top: 100px;
+         margin-left: 20px;
+         margin-right: 20px;
+         margin-bottom: 120px;
+        }
+
+
+ .backgroundDos{
+     background:#ffffff ;
+}
+
+
+#margenNosotros { margin-top: 120px;}
+
+    /* Contacto*/
+
+
+ #consulta{
+    
+     text-align: left; 
+     font-size: 1.5rem;
+     padding-left: 10px;
+    }
+
+#margenConsulta { margin-top: 100px; }
+
+#margenMapa {margin-top: -10px; }
+
+#ubicacionDerecha{
+     display: -webkit-box; 
+     display: -ms-flexbox; 
+     display: flex;
+     display: -webkit-flex;
+     -webkit-box-orient:horizontal;
+     -webkit-box-direction:normal;
+         -ms-flex-flow:row wrap;
+             flex-flow:row wrap;
+     -webkit-column-gap: 200px;
+        -moz-column-gap: 200px;
+             column-gap: 200px;
+     row-gap: 30px;
+     -webkit-row-gap:30px;
+     -webkit-box-align: start;
+         -ms-flex-align: start;
+     align-items: flex-start ;} 
+
+#form{
+     text-align: left; 
+     font-size: medium;
+     padding-left: 10px;
+           }
+
+ /*Fin Contacto*/
+
+       /*Comienzo exámen*/
+
+.textoExamen{
+          font-size: 1.2rem;
+          text-align: justify;
+          margin-right: 60px;
+          margin-top: 60px;
+          margin-bottom: 30px;
+          line-height: 1.6;
+          li { margin-bottom: 40px;
+               background-color: #d9e990; 
+               text-align: start;
+               padding: 50px ; 
+               border: rgb(233, 242, 243) 8px solid;
+               border-radius: 40px;
+               list-style-type: none;
+               font-size: 1.3rem;}
+     }
+
+
+#gridExamen{ 
+             display: grid;
+             grid-template-columns: repeat(2, 1fr);
+             grid-template-rows: repeat(2, 1fr);
+             grid-column-gap: 45px;
+             grid-row-gap: 37px;
+            
+
+}
+
+         /*Fin exámen*/
+
+      /* Inicio Footer"*/
+ 
+
+ footer {
+     display: -webkit-box; 
+     display: -ms-flexbox; 
+     display: flex; 
+     display: -webkit-flex;
+     -webkit-box-orient: horizontal; 
+     -webkit-box-direction: normal; 
+     -ms-flex-flow: row wrap ; 
+     flex-flow: row wrap ;
+     -ms-flex-pack: distribute;
+     justify-content: space-around;
+     background-color: #8ae9b3;
+     background-image: -o-linear-gradient(135deg, #8ae9b3 0%, #c8d6e5 74%);
+     background-image: linear-gradient(315deg, #8ae9b3 0%, #c8d6e5 74%);
+     margin-bottom: -35px;
+     padding: 15px;
+     margin-top: 200px;
+     -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+     column-gap: 10px;  }
+
+.agrandar a img:hover{ width: 42px;}
+
+
+    /* Fin Footer"*/
+
+   /*Sección Nuestros servicios*/
+
+
+.listaUbicacion{  
+             display: grid; 
+             grid-template-columns: repeat(3, 1fr);
+             column-gap: 40px;
+              -webkit-column-gap:40px;
+              margin-top: 80px; 
+              a {
+                 display:block; 
+                 padding-left: 50px;
+                 padding-right: 40px;
+                 text-align: center;
+                 color: #0a0a0a;
+                 text-decoration: none;
+                 img {
+                      display: block;
+                      margin: 0 auto;
+                      margin-top: 18px;
+                      &:hover { 
+                         cursor: pointer;
+                         transition: all 3s; 
+                         transition-timing-function: linear;
+                         transform: rotateY(360deg); 
+                         
+                         }
+                }
+          } 
+          }
+
+
+.carousel-caption { 
+       font-size:24px; 
+}
+.sliderResaltado{ 
+      color: #030200;
+      background-color: #f0f3f5;
+}
+
+   /*Error 404*/
+
+.fondoError{ 
+     background-color: #85e4eb; 
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align: center;
+     margin-top: 60px;
+}
+
+.perdido {
+     font-size: 1.4rem;
+     padding: 20px;
+}
+
+.btnVolver {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+.strikethrough {
+  position: relative;
+  
+}
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+  color: green;
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+}
+
+.imgCarro{
+  margin-top: 40px ;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
+#textoCarrito{
+  margin-left:40px ;
+  margin-top: 30px;
+}
+#precioTotal {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color:grey;
+}
+
+    /*Inicio KeyFrames*/      
+      
+
+ .tituloResaltado { 
+     animation-name: opacity; 
+     animation-timing-function: ease;
+     animation-delay: 1s;
+     animation-duration: 3s;}
+
+ @keyframes opacity {
+      0% { opacity: 0;}
+
+      100% { opacity: 1; }
+ }
+
+
+    /*Fin KeyFrames*/ 
+
+
+    /*Inicio Media queries*/
+
+    @media (max-width: 480px) {
+     .backgroundDos {
+       padding-bottom: 30px;
+       margin: 0 auto; }
+   
+       nav ul li {
+     font-size: 0.5rem;
+     display: block;
+     padding-left: 20px;}
+   
+     .galeria {
+       display: grid;
+       grid-template-columns: repeat 8 1fr;
+       column-gap: 30px;
+       row-gap: 30px;
+       -webkit-row-gap: 30px;
+       -webkit-column-gap: 30px; }
+
+     .fondoError img {
+       width: 300px; }
+
+     .backgroundPortada__tituloGrande {
+       padding-top: 0px; }
+
+     .backgroundPortada__textoPortada {
+       font-size: 1.2rem;
+       text-align: start; }
+
+     .tituloNegro {
+       font-size: 1.7rem;
+       text-align: center; }
+
+     #mediaWidth {
+       width: 100vw;
+       margin-right: 0 auto; }
+
+     .listaUbicacion {
+       display: -webkit-box;
+       display: -webkit-flex;
+       display: -ms-flexbox;
+       display: flex;
+       -webkit-box-orient: horizontal;
+       -webkit-box-direction: normal;
+       -ms-flex-flow: row wrap;
+       flex-flow: row wrap;
+       -ms-flex-direction: column;
+       flex-direction: column;
+       -ms-flex-pack: distribute;
+       justify-content: space-around;
+       -webkit-row-gap: 40px;
+       row-gap: 40px;
+       padding-left: 20px; }
+
+     .tablaSpace {
+       padding-left: 30px; }
+
+     #margenGaleria {
+       padding-left: 25px; }
+
+     nav ul li {
+       font-size: 1.1rem; }
+
+     .tituloFooter {
+       font-size: 1rem; }
+
+     .datosContacto {
+       font-size: 1.2rem; }
+
+     #derechos {
+       font-size: 1rem;
+       padding-left: 40px; }
+
+     #derechosAbajo {
+       display: -webkit-box;
+       display: -webkit-flex;
+       display: -ms-flexbox;
+       display: flex;
+       -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+       -webkit-box-orient: horizontal;
+       -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+       flex-direction: row;
+       -webkit-box-pack: center;
+       -ms-flex-pack: center;
+       justify-content: center; }
+
+     footer {
+       margin-right: -110px;
+       display: block;
+       width: 100vw; }
+
+     .sinItem li a {
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       display: -webkit-flex;
+       -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+       flex-direction: column;
+       -webkit-box-align: center;
+       -ms-flex-align: center;
+       align-items: center;
+       -webkit-row-gap: 40px;
+       row-gap: 40px; }
+
+       .sinItem li a img {
+         padding-top: 10px;
+         padding-bottom: 30px; }
+
+     .datosContacto li {
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: -webkit-flex;
+       display: flex;
+       -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+       flex-direction: column;
+       -webkit-box-align: center;
+       -ms-flex-align: center;
+       align-items: center; }
+
+     .backgroundOrange {
+       width: 100vw; }
+
+     iframe {
+       width: 370px;
+       height: 180;
+       padding-right: 120px;
+       padding-left: 10px; }
+
+     .margenes {
+       margin-left: 25px; }
+
+     .margenesNosotros {
+       padding-left: 45px; }
+
+     .margenesCursos {
+       padding-left: 35px; }
+
+     #gridExamen {
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       -webkit-box-orient: horizontal;
+       -webkit-box-direction: normal;
+       -ms-flex-flow: row wrap;
+       flex-flow: row wrap;
+       display: -webkit-flex;
+       padding-left: 40px;
+       padding-right: 40px; }
+
+     .textoExamen {
+       text-align: start; }
+
+       .textoExamen li {
+         font-size: 1.3rem;
+         text-align: start; }
+
+     #margenMapa {
+       margin-top: 80px; }
+
+       #margenMapa iframe {
+         width: 320px; }
+
+     #fotoAcademia img {
+       width: 230px; }
+
+     .fotonyc img {
+       width: 260px; }
+
+     .carousel-caption {
+       font-size: 24px; }
+     #contacto {
+       padding-left: 40px;
+       padding-right: 40px; }
+
+     .verde {
+       background-color: #9cf5a9; }
+
+     .gridNiveles {
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: -webkit-flex;
+       display: flex;
+       -webkit-box-orient: horizontal;
+       -webkit-box-direction: normal;
+       -ms-flex-flow: row wrap;
+       flex-flow: row wrap;
+       -webkit-box-align: center;
+       -ms-flex-align: center;
+       align-items: center;
+       -webkit-box-pack: center;
+       -ms-flex-pack: center;
+       justify-content: center;
+       width: 60vw; }
+
+     .tituloGrande {
+       padding-top: 20px; }
+      
+       
+     .ciudades {
+       font-size: 1.6rem; } }
+       
+   
+   @media (min-width: 480px) and (max-width: 768px) {
+   
+      nav ul li {
+     display: block;
+     margin-left: 20px;
+   
+    }
+   
+    .nav-item{
+     font-size: 20px;
+    }
+  
+     .backgroundDos {
+       margin-top: -100px;
+       margin-right: -115px;
+       margin-bottom: -200px;
+       padding-bottom: 30px;
+       width: 100vw; }
+
+     .carousel-caption {
+       font-size: 26px; }
+
+     .tituloNegro {
+       font-size: 2.2rem; }
+
+     .tituloBlanco {
+       font-size: 2.2rem; }
+
+     #mediaWidth {
+       width: 80vw;
+       margin-right: 0 px; }
+
+     .backgroundPortada {
+       margin-right: 0px;
+       width: 100vw; }
+
+     .listaUbicacion {
+       display: grid;
+       grid-template-columns: 1fr;
+       row-gap: 45px;
+       -webkit-row-gap: 45px;
+       justify-self: center; }
+
+     .textoBlanco {
+       font-size: 2.2rem; }
+
+     .backgroundPortada__textoPortada {
+       font-size: 1.6rem; }
+
+     .tituloGrande {
+       font-size: 2.9rem; }
+   
+     .tituloFooter {
+       font-size: 1.4rem; }
+
+     .datosContacto {
+       font-size: 1.4rem; }
+
+     .tablaSpace {display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+       margin-left: 130px;
+        }
+
+     #derechos {
+       font-size: 1rem; }
+
+     #derechosAbajo {
+       display: -webkit-box;
+       display: -webkit-flex;
+       display: -ms-flexbox;
+       display: flex;
+       -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+       -webkit-box-orient: horizontal;
+       -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+       flex-direction: row;
+       -webkit-box-pack: center;
+       -ms-flex-pack: center;
+       justify-content: center; }
+
+     .galeria {
+       display: grid;
+       grid-template-columns: repeat 8 1fr;
+       column-gap: 30px;
+       row-gap: 30px;
+       -webkit-row-gap: 30px;
+       -webkit-column-gap: 30px; }
+
+     footer {
+       display: flex;
+       width: 100vw; }
+
+     .sinItem li a {
+       display: -webkit-box;
+       display: -webkit-flex;
+       display: -ms-flexbox;
+       display: flex;
+       -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+       flex-direction: column;
+       -webkit-box-align: center;
+       -ms-flex-align: center;
+       align-items: center; }
+
+     .datosContacto li {
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: -webkit-flex;
+       display: flex;
+       -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+       flex-direction: column;
+       -webkit-box-align: center;
+       -ms-flex-align: center;
+       align-items: center; }
+
+     #margenMapa {
+       margin-top: 80px; }
+
+     .backgroundOrange {
+       width: 100vw;
+       margin-right: -145px; }
+
+     .textoExamen li {
+       font-size: 1rem; }
+
+     #gridExamen {
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: -webkit-flex;
+       display: flex;
+       -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
+       -webkit-box-orient: horizontal;
+       -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+       flex-direction: row; }
+
+     .slide {
+       width: 100vw; }
+
+     .gridNiveles {
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: -webkit-flex;
+       display: flex;
+       -webkit-box-orient: horizontal;
+       -webkit-box-direction: normal;
+       -ms-flex-flow: row wrap;
+       flex-flow: row wrap;
+      
+       width: 40vw;
+       -webkit-box-align: center;
+       -ms-flex-align: center;
+       align-items: center;
+       -webkit-box-pack: center;
+       -ms-flex-pack: center;
+       justify-content: center; }
+
+     .navbar {
+       width: 105vw; } }
+   
+   @media (min-width: 768px) and (max-width: 1024px) {
+   
+    nav ul li {
+     font-size: 1.3rem;
+     display: block;
+     padding: 5px;
+     margin-left: 10px;
+     }
+   
+     .backgroundDos {
+       padding-bottom: 70px; }
+
+     .carousel-caption {
+       font-size: 28px; }
+
+     .tituloNegro {
+       font-size: 2rem; }
+
+     .tituloBlanco {
+       font-size: 2rem; }
+
+     #mediaWidth {
+       width: 100vw;
+       margin-right: auto; }
+
+     .listaUbicacion {
+       display: grid;
+       grid-template-columns: 1fr;
+       column-gap: 40px;
+       row-gap: 50px;
+       justify-self: center; }
+
+     .textoBlanco {
+       font-size: 2rem; }
+
+     .backgroundPortada__textoPortada {
+       font-size: 1.5rem; }
+
+     .tituloGrande {
+       font-size: 3rem; }
+
+     .tituloFooter {
+       font-size: 1.2rem; }
+
+     .datosContacto {
+       font-size: 1rem; }
+
+     #derechos {
+       font-size: 0.8rem;
+       padding-left: 40px; }
+
+
+     footer {
+       display: -webkit-box;
+       display: -webkit-flex;
+       display: -ms-flexbox;
+       display: flex;
+       -webkit-box-orient: horizontal;
+       -webkit-box-direction: normal;
+       -ms-flex-flow: row wrap;
+       flex-flow: row wrap;
+       -ms-flex-pack: distribute;
+       justify-content: space-around;
+       width: 100vw; }
+
+     .backgroundOrange {
+       width: 100vw;
+       margin-right: -145px; }
+
+     #margenMapa {
+       margin-top: 80px;
+   }
+
+     #gridExamen {
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       display: -webkit-flex;
+       -webkit-box-orient: horizontal;
+       -webkit-box-direction: normal;
+       -ms-flex-flow: row wrap;
+       flex-flow: row wrap; }
+
+     .gridNiveles {
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: -webkit-flex;
+       display: flex;
+       -webkit-box-orient: horizontal;
+       -webkit-box-direction: normal;
+       -ms-flex-flow: row wrap;
+       flex-flow: row wrap;
+       margin-left: 30px; } }
+   
+   .textoExamen li {
+     font-size: 1.2rem; }
+
+     @media (min-width: 1024px) and (max-width: 1036px){
+      nav ul li {
+        font-size: 1.3rem;
+        display: inline-block;
+        padding: 5px;
+        margin-left: 10px;
+      
+       }
+       .logo{ display:none;}
+     }
+    
+   /*Fin Media Queries*/
+   

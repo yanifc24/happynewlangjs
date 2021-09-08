@@ -64,7 +64,7 @@ $(document).ready(function(){
                         
                     </tr>
                     </table>
-                    <p>Retirar por nuestra tienda </p><img src="imagenes/tienda.png" width="25px" alt="tienda"</p>
+                    <p>Retirar por nuestra tienda </p><img src="../Imagenes/tienda.png" width="25px" alt="tienda"</p>
                     <p>En caso de comprar una actividad o clase se recibirá un voucher por correo electrónico.</p>
                     <p>Medios de pago: Débito y efectivo</p>`
 

@@ -64,7 +64,7 @@ $(document).ready(function(){
                         
                     </tr>
                     </table>
-                    <p>Retirar por nuestra tienda </p><img src="../Imagenes/tienda.png" width="25px" alt="tienda"</p>
+                    <p>Retirar por nuestra tienda </p><img src="Imagenes/tienda.png" width="25px" alt="tienda"</p>
                     <p>En caso de comprar una actividad o clase se recibirá un voucher por correo electrónico.</p>
                     <p>Medios de pago: Débito y efectivo</p>`
 
@@ -99,7 +99,7 @@ function aplicarDescuento(nro) {
   let precioOriginal = productos.filter((producto)=>producto.id == nro)
   precios[nro].innerHTML = ("$"+ precioOriginal[0].precio * 0.7)
   let precioConDescuento = precioOriginal[0].precio * 0.7
-  precios[nro].innerHTML = `<img src="imagenes/sale.png" width="32px" alt=""><span class="strikethrough">$ ${precioOriginal[0].precio} </span>$ ${precioConDescuento}`
+  precios[nro].innerHTML = `<img src="Imagenes/sale.png" width="32px" alt=""><span class="strikethrough">$ ${precioOriginal[0].precio} </span>$ ${precioConDescuento}`
   
   //hago un objeto al que le modifico el precio para que vaya al carrito en caso de descuento
   const objetoTemporal = {

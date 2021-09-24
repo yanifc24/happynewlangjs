@@ -26,7 +26,7 @@ const crearTabla = (data) => {
 	let tabla = `<table class='table'>
 					<tr>
 						<td>Name</td>
-						<td>Email</td>
+						
 	
 					</tr>
 				`
@@ -34,13 +34,11 @@ const crearTabla = (data) => {
 	for (persona of data) {
 		tabla += `<tr>
 		            <td> ${persona.name.first} ${persona.name.last}</td>
-					<td>${persona.email}</td>	
+					
 				 </tr>
 				 
 
-				 <tr>
-				      <td><img src='${persona.picture.large}'></td>
-			     </tr> `
+				`
 				 
 	}
 
